@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body id="body" onload="testerNavigateur();">
+    <div id="page">
+        <div id="info">
+            Bravo M, <span id="gagnant"></span> Vous avez gagné <span id="resultat">0</span> euros
+        </div>
+        <!--<img id="charge" scr="chargeur.gif" />-->
+        <h3 id="charge">Requete en cours de traitement ...</h3>
+        <div id="formulaire">
+            <form method="GET">
+                <label for="">Indiquez votre Nom et Prénom : </label>
+                <input type="button" name="nom" id="nom1" value="Florent"> ou <input type="button" name="prenom" id="nom2" value="Mathis">
+                <br>
+                <br>
+                <label for=" ">avant de</label>
+                <input name="button" type="button" id="button" onclick="jouer();" value="JOUER">
+            </form>
+        </div>
+    </div>
+</body>
+<script type="text/javascript " src="fonctionsAjax.js "></script>
+<script type="text/javascript " src="fonctionsGenerique.js "></script>
+<script type="text/javascript " src="fonctionsMachine.js "></script>
+
+</html>

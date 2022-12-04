@@ -1,0 +1,18 @@
+#info {
+    text-align: center;
+    padding: 50px;
+    visibility: hidden;
+}
+
+#formulaire {
+    position: absolute;
+    text-align: center;
+    left: 500px;
+    top: 120px;
+}
+
+#charge {
+    padding: 50px;
+    visibility: hidden;
+    text-align: center;
+}
